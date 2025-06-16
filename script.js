@@ -16,4 +16,7 @@ welcomeBtn.onclick = function() {
     // Show a fun personalized message using the user's name
     welcomeMsg.textContent = "Welcome, " + userName + "! 🎉 You are awesome!";
   }
+
+  // Clear the input field after clicking the button
+  nameInput.value = "";
 };
